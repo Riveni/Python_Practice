@@ -20,7 +20,8 @@ x = input("text you can print:")  # input defined as string!
 # Casting: converting variable from one type to another
 y = int(x)  # cast string to int
 
-# Switching variables:
+# Switching variables::
 v1 = 5
 v2 = 7
 v1, v2 = v2, v1
+
