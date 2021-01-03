@@ -20,3 +20,10 @@ print("\"Shuffle, Shuffle, Shuffle\", say it together!\n"
       "\tDo you want to play Taki?\n"
       "\tPress y\\n")
 """
+
+# Ex.3
+"""
+encrypted_message = "!XgXnXiXcXiXlXsX XnXoXhXtXyXpX XgXnXiXnXrXaXeXlX XmXaX XI"
+decrypt = encrypted_message[::-2]
+print(decrypt)
+"""
