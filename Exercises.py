@@ -35,3 +35,11 @@ print(sen[0] + sen[1:].replace(sen[0], 'e'))
 """
 
 # Ex.5
+"""
+word = input("Enter a word: ").lower().replace(" ", "")
+rev = word[::-1]
+if word == rev:
+    print("OK")
+else:
+    print("NOT")
+"""
