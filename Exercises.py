@@ -27,3 +27,11 @@ encrypted_message = "!XgXnXiXcXiXlXsX XnXoXhXtXyXpX XgXnXiXnXrXaXeXlX XmXaX XI"
 decrypt = encrypted_message[::-2]
 print(decrypt)
 """
+
+# Ex.4
+"""
+sen = input("Enter your string: ")
+print(sen[0] + sen[1:].replace(sen[0], 'e'))
+"""
+
+# Ex.5
