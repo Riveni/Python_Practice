@@ -65,3 +65,16 @@ elif week_day == 5:
 elif week_day == 6:
     print("Sunday")
 """
+
+
+# Ex.7
+"""
+def last_early(my_str):
+    if my_str[-1] in my_str[:-1]:
+        print("True")
+    else:
+        print("False")
+
+
+last_early("best of luck")
+"""
