@@ -66,7 +66,6 @@ elif week_day == 6:
     print("Sunday")
 """
 
-
 # Ex.7
 """
 def last_early(my_str):
@@ -77,4 +76,17 @@ def last_early(my_str):
 
 
 last_early("best of luck")
+"""
+
+
+# Ex.8
+"""
+def distance(num1, num2, num3):
+    if (abs(num1 - num2) == 1 or abs(num1 - num3) == 1) and (abs(num1 - num2) > 1 or abs(num1 - num3) > 1):
+        print("True")
+    else:
+        print("False")
+
+
+distance(1, 2, 10)
 """
