@@ -113,6 +113,7 @@ filter_t(2, 1, 15)
 """
 
 # Ex.10
+"""
 SMALL_LENGTH = 1
 BIG_LENGTH = 5
 
@@ -128,3 +129,18 @@ chocolate_maker(0, 3, 13)
 chocolate_maker(3, 1, 8)
 chocolate_maker(3, 1, 9)
 chocolate_maker(3, 2, 10)
+"""
+
+
+# Ex.11 - defining main function
+def my_func(num1, num2):
+    return num1 * num2
+
+
+def main():
+    multi = my_func(2, 5)
+    print(multi)
+
+
+if __name__ == "__main__":
+    main()
