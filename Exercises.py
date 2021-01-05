@@ -78,7 +78,6 @@ def last_early(my_str):
 last_early("best of luck")
 """
 
-
 # Ex.8
 """
 def distance(num1, num2, num3):
@@ -89,4 +88,27 @@ def distance(num1, num2, num3):
 
 
 distance(1, 2, 10)
+"""
+
+
+# Ex.9
+"""
+def fix_age(age):
+    age = 0
+    return age
+
+
+def filter_t(a=13, b=13, c=13):
+    if 12 < a < 15 or 16 < a < 20:
+        a = fix_age(a)
+    if 12 < b < 15 or 16 < b < 20:
+        b = fix_age(b)
+    if 12 < c < 15 or 16 < c < 20:
+        c = fix_age(c)
+    print(a + b + c)
+
+filter_t()
+filter_t(1, 2, 3)
+filter_t(2, 13, 1)
+filter_t(2, 1, 15)
 """
