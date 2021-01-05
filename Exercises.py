@@ -90,7 +90,6 @@ def distance(num1, num2, num3):
 distance(1, 2, 10)
 """
 
-
 # Ex.9
 """
 def fix_age(age):
@@ -112,3 +111,20 @@ filter_t(1, 2, 3)
 filter_t(2, 13, 1)
 filter_t(2, 1, 15)
 """
+
+# Ex.10
+SMALL_LENGTH = 1
+BIG_LENGTH = 5
+
+
+def chocolate_maker(small, big, x):
+    if (small * SMALL_LENGTH + big * BIG_LENGTH >= x) and (x % BIG_LENGTH <= small):
+        print("True")
+    else:
+        print("False")
+
+
+chocolate_maker(0, 3, 13)
+chocolate_maker(3, 1, 8)
+chocolate_maker(3, 1, 9)
+chocolate_maker(3, 2, 10)
