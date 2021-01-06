@@ -133,6 +133,7 @@ chocolate_maker(3, 2, 10)
 
 
 # Ex.11 - defining main function
+"""
 def my_func(num1, num2):
     return num1 * num2
 
@@ -144,3 +145,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
