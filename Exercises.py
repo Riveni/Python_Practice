@@ -131,7 +131,6 @@ chocolate_maker(3, 1, 9)
 chocolate_maker(3, 2, 10)
 """
 
-
 # Ex.11 - defining main function
 """
 def my_func(num1, num2):
@@ -146,3 +145,18 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+
+# Ex.12 - working with lists
+'''
+def shift_left(my_list):
+    """Cyclic shift lists' elements to the left"""
+    var = my_list.pop(0)
+    my_list.append(var)
+    print(my_list)
+
+
+shift_left([1, 2, 3])
+shift_left(['monkey', 2.0, 1])
+'''
+
