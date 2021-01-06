@@ -146,7 +146,6 @@ if __name__ == "__main__":
     main()
 """
 
-
 # Ex.12 - working with lists
 '''
 def shift_left(my_list):
@@ -160,3 +159,13 @@ shift_left([1, 2, 3])
 shift_left(['monkey', 2.0, 1])
 '''
 
+
+# Ex.13
+"""
+def format_list(my_list):
+    sep = ', '
+    print(sep.join(my_list[::2]) + ", and " + my_list[-1])
+
+
+format_list(["hydrogen", "helium", "lithium", "beryllium", "boron", "magnesium"])
+"""
