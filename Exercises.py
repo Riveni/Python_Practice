@@ -159,7 +159,6 @@ shift_left([1, 2, 3])
 shift_left(['monkey', 2.0, 1])
 '''
 
-
 # Ex.13
 """
 def format_list(my_list):
@@ -168,4 +167,25 @@ def format_list(my_list):
 
 
 format_list(["hydrogen", "helium", "lithium", "beryllium", "boron", "magnesium"])
+"""
+
+# Ex.14
+"""
+
+def extend_list_x(list_x, list_y):
+    # list_x[:0] = list_y
+    list_x = list_y + list_x
+    # list_x.extend(list_y)
+    print(list_x)
+
+
+def main():
+    y = [1, 2, 3]
+    x = [4, 5, 6]
+    extend_list_x(x, y)
+    print(x)
+
+
+if __name__ == "__main__":
+    main()
 """
