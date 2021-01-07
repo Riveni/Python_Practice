@@ -210,3 +210,19 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+# Ex.16
+"""
+def longest(my_list):
+    list1 = sorted(my_list, key = len )
+    print(list1[-1])
+
+
+def main():
+    list1 = ["111", "234", "2000", "goru", "birthday", "09"]
+    longest(list1)
+
+
+if __name__ == "__main__":
+    main()
+"""
