@@ -284,3 +284,25 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+# Ex.20
+"""
+def sequence_del(my_str):
+    l = []
+    perv_letter = ""
+    for letter in my_str:
+        if letter != perv_letter:
+            l.append(letter)
+        perv_letter = letter
+    print("".join(l))
+
+
+def main():
+    sequence_del("ppyyyyythhhhhooonnnnn")
+    sequence_del("SSSSsssshhhh")
+    sequence_del("Heeyyy   yyouuuu!!!")
+
+
+if __name__ == "__main__":
+    main()
+"""
