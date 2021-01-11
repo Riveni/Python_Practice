@@ -228,7 +228,6 @@ if __name__ == "__main__":
 """
 
 # Ex.17
-
 """
 def squared_numbers(start, stop):
     num_list = []
@@ -241,6 +240,25 @@ def squared_numbers(start, stop):
 def main():
     print(squared_numbers(4, 8))
     print(squared_numbers(-3, 3))
+
+
+if __name__ == "__main__":
+    main()
+"""
+
+# Ex.18
+"""
+def is_greater(my_list, n):
+    new_list = []
+    for num in my_list:
+        if num > n:
+            new_list.append(num)
+    return new_list
+
+
+def main():
+    result = is_greater([1, 30, 25, 60, 27, 28], 28)
+    print(result)
 
 
 if __name__ == "__main__":
