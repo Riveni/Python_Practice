@@ -306,3 +306,18 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+# Ex.21
+
+def arrow(my_char, max_length):
+    for i in range(max_length):
+        print(my_char * (i +1))
+    for i in range(i - 1, -1, -1):
+        print(my_char * (i + 1))
+
+def main():
+    arrow('*', 5)
+
+
+if __name__ == "__main__":
+    main()
