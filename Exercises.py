@@ -264,3 +264,23 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+# Ex.19
+"""
+def seven_boom(end_number):
+    l = []
+    for num in range(end_number + 1):
+        if (num % 7 == 0) or ('7' in str(num)):
+            l.append("BOOM")
+        else:
+            l.append(num)
+    return l
+
+
+def main():
+    print(seven_boom(17))
+
+
+if __name__ == "__main__":
+    main()
+"""
