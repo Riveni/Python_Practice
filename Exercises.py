@@ -329,3 +329,23 @@ data = ("self", "py", 1.543)
 format_string = "Hello %s.%s learner, you have only %.1f units left before you master the course!"
 print(format_string % data)
 """
+
+# Ex.23
+"""
+def extract_key(product):
+    return product[1]
+
+
+def sort_prices(list_of_tuples):
+    list_of_tuples.sort(key=extract_key)
+    print(list_of_tuples)
+
+
+def main():
+    products = [('milk', '5.5'), ('candy', '2.5'), ('bread', '9.0')]
+    sort_prices(products)
+
+
+if __name__ == "__main__":
+    main()
+"""
