@@ -308,7 +308,7 @@ if __name__ == "__main__":
 """
 
 # Ex.21
-
+"""
 def arrow(my_char, max_length):
     for i in range(max_length):
         print(my_char * (i +1))
@@ -321,3 +321,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
+
+# Ex.22
+"""
+data = ("self", "py", 1.543)
+format_string = "Hello %s.%s learner, you have only %.1f units left before you master the course!"
+print(format_string % data)
+"""
