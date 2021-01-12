@@ -363,3 +363,19 @@ def count_chars(my_str):
 magic_str = "abra cadabra"
 count_chars(magic_str)
 """
+
+# Ex.25
+"""
+def inverse_dict(my_dict):
+    new_dict = {}
+    for key in my_dict:
+        if my_dict[key] in new_dict:
+            new_dict[my_dict[key]].append(key)
+        else:
+            new_dict[my_dict[key]] = [key]
+    print(new_dict)
+
+
+course_dict = {'I': 3, 'love': 3, 'self.py!': 2}
+inverse_dict(course_dict)
+"""
