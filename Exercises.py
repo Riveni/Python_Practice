@@ -349,3 +349,17 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+# Ex.24
+"""
+def count_chars(my_str):
+    dict = {}
+    for letter in my_str:
+        if letter.isalpha():
+            dict[letter] = my_str.count(letter)
+    print(dict)
+
+
+magic_str = "abra cadabra"
+count_chars(magic_str)
+"""
