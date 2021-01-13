@@ -379,3 +379,27 @@ def inverse_dict(my_dict):
 course_dict = {'I': 3, 'love': 3, 'self.py!': 2}
 inverse_dict(course_dict)
 """
+
+# Ex.26
+"""
+def are_files_equal(file1, file2):
+    for line in file1:
+        if line != file2.readline():
+            return False
+    if file2.readline() is not '':
+        return False
+    else:
+        return True
+
+
+def main():
+    file1 = open(r"C:\file1.txt", "r")
+    file2 = open(r"C:\file2.txt", "r")
+    print(are_files_equal(file1, file2))
+    file1.close()
+    file2.close()
+
+
+if __name__ == "__main__":
+    main()
+"""
