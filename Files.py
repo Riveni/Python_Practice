@@ -19,5 +19,9 @@ file_content3 = my_file.readlines()  # copy all lines to list of strings
 for line in file_content:
     """each iteration it copy 1 line"""
 
+# Writing to file
+file_write = my_file.write("writing to file")
+# NOTE: the method write OVERWRITE the data that already exists in the file
+
 
 
