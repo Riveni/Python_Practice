@@ -448,3 +448,25 @@ source = r"C:\file1.txt"
 destination = r"C:\file2.txt"
 copy_file_content(source, destination)
 """
+
+# Ex.29
+"""
+def who_is_missing(file_path):
+    num_list = []
+    file1 = open(file_path, "r")
+    for line in file1:
+        for word in line.split(','):
+            num_list.append(word)
+    num_list.sort()
+    print(num_list)
+    for i in range(1, int(num_list[-1])):
+        if i != int(num_list[i-1]):
+            file2 = open(r"C:\Users\riven\PycharmProjects\Python_Practice\found.txt", "w")
+            file2.write(str(i))
+            print(i)
+            return
+
+
+file_path = r"C:\Users\riven\PycharmProjects\Python_Practice\findMe.txt"
+who_is_missing(file_path)
+"""
