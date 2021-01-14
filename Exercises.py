@@ -403,3 +403,33 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+# Ex.27
+"""
+def main():
+    file_path = input(r"Enter file path:")
+    action = input(r"Choose action(sort\rev\last):")
+    file1 = open(file_path, "r")
+    if action == "sort":
+        word_list = []
+        for line in file1:
+            for word in line.split():
+                if word not in word_list:
+                    word_list.append(word)
+        word_list.sort()
+        print(word_list)
+    elif action == "rev":
+        for line in file1:
+            print(line[::-1])
+    elif action == "last":
+        n = int(input("enter line number:"))
+        for i in range(n):
+            file1.readline()
+        for line in file1:
+            print(line)
+    file1.close()
+
+
+if __name__ == "__main__":
+    main()
+"""
