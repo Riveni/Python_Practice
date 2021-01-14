@@ -433,3 +433,18 @@ def main():
 if __name__ == "__main__":
     main()
 """
+
+# Ex.28
+"""
+def copy_file_content(source, destination):
+    source_file = open(source, "r")
+    dest_file = open(destination, "w")
+    for line in source_file:
+        dest_file.write(line)
+    source_file.close()
+    dest_file.close()
+
+source = r"C:\file1.txt"
+destination = r"C:\file2.txt"
+copy_file_content(source, destination)
+"""
